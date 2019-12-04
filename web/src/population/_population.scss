@@ -1,10 +1,11 @@
 /*Gráficos de população*/
 
-.Polulation {
-    <style>
-     .pieContainer {
-          height: 100px;
-     }
+    .Polulation {
+        <style>
+         .pieContainer {
+              height: 100px;
+         }
+    
      .pieBackground {
           background-color: green;
           position: absolute;
@@ -19,11 +20,7 @@
           -o-box-shadow: -1px 1px 3px #000;
           box-shadow: -1px 1px 3px #000;
      } 
-</style>
-<div id="pieContainer">
-     <div class="pieBackground"></div>
-</div>
-<style>
+
      .pie {
           position: absolute;
           width: 100px;
@@ -85,6 +82,9 @@
           transform:rotate(140deg);
      }
 </style>
+<div id="pieContainer">
+    <div class="pieBackground"></div>
+    </div>
 <div class="pieContainer">
      <div class="pieBackground"></div>
      <div id="pieSliceBlue" class="hold"><div class="pie"></div></div>
